@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const { Schema } = mongoose;
+const { Schema } = mongoose; // import schema from the documentation
+// Schema : means samples, the user data took accordingly 
 const UserSchema = new Schema({
     name:{
         type: String,

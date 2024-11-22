@@ -8,3 +8,5 @@ const connectToMongo = async()=>{
 }
 
 module.exports= connectToMongo;
+
+// Mongodb connection using Mongoose and Nodemon
