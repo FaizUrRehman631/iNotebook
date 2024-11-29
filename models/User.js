@@ -15,26 +15,6 @@ const UserSchema = new Schema({
         type: String,
         required:true
     },
-    gender:{
-        type: String,
-        required:true
-    },
-    city:{
-        type: String,
-        required:true
-    },
-    district:{
-        type: String,
-        required:true
-    },
-    province:{
-        type: String,
-        required:true
-    },
-    nationality:{
-        type: String,
-        required:true
-    },
     date:{
         type: Date,
         default:Date.now
